@@ -1,0 +1,73 @@
+/* Add a stylish background */
+body {
+	background-color: #f2f2f2;
+}
+
+/* Center the container */
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* Make each div a column */
+.column {
+	flex: 1;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+/* Remove the margin-right from the last column */
+.column:last-child {
+	margin-right: 0;
+}
+
+/* Add a blue border to each column */
+.column {
+	border: 2px solid blue;
+	padding: 20px;
+}
+
+/* Style the images */
+.column img {
+	display: block;
+	margin-bottom: 10px;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Style the footer */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Style the header */
+header {
+	background-color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.login-buttons {
+	display: flex;
+}
+
+.login-buttons button {
+	margin-left: 10px;
+	background-color: blue;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.login-buttons button:hover {
+	background-color: #333;
+}
